@@ -1,67 +1,64 @@
 # Mars Farm
 
-A small farming game where your farm is on Mars instead of Earth.
-
 ## Description
 
-I wanted to make a farming game, but not the usual kind with fields, barns and a nice sunny village. So I moved the whole thing to Mars. There's no proper soil there, hardly any water you can actually use, and the conditions are nothing like Earth. Growing food in a place like that sounded like a fun idea for a game.
+Mars Farm is a game where you grow plants and collect harvests on Mars.
 
-[Describe how the game actually plays: what the player does, how you plant and harvest, what the goal is and how you win or lose.]
+This is my second project. I chose this idea because the difficulty was right for me.
 
-I tried to keep the project small on purpose. Starting with a simple idea and building on it felt more realistic than trying to make a huge game right away. Even something this small needed more planning than I expected: deciding what the player actually does, how the systems work and how it all fits together.
+## Gameplay
 
-Things I'd like to add later (none of these are in the game yet):
+You need to grow plants and collect harvests. If you collect more than 12 harvests, you win. Otherwise, you lose.
 
-* More plants to grow
-* Different farming equipment
-* Water and electricity management
-* Greenhouse upgrades
-* Dust storms and other Mars events
-* More things to unlock as the farm grows
+You only need a mouse to play.
 
-### Screenshots
+## Controls
 
-<img width="1467" height="916" alt="Снимок экрана — 2026-11-21 в 23 45 15" src="https://github.com/user-attachments/assets/b6534475-352f-45e8-a455-390e8defa87b" />
+- Left mouse button
+- Right mouse button
 
+## Screenshots
+
+![Mars Farm](https://github.com/user-attachments/assets/b6534475-352f-45e8-a455-390e8defa87b)
 
 ## Getting Started
 
 ### Dependencies
 
-* [Python 3.x / other language or engine]
-* [Libraries the game uses, e.g. pygame]
-* [OS you tested it on, e.g. Windows 11 or macOS]
+- Python
+- Pygame
 
-### Installing
+I worked on this project using macOS.
 
-* Download the project from GitHub: click the green **Code** button, choose **Download ZIP** and extract it
-* Or clone it with Git:
-```
+### Installation
+
+```bash
 git clone https://github.com/YOUR_USERNAME/Mars-Farm.git
 cd Mars-Farm
 ```
-* Install the dependencies:
-```
+
+Install the dependencies:
+
+```bash
 python -m pip install -r requirements.txt
 ```
 
-### Executing program
+### Running the game
 
-* Open the project folder
-* Run the main file:
-```
+The main file is `main.py`.
+
+```bash
 python main.py
 ```
-* [Add the controls here, e.g. which keys or buttons do what]
 
-## Help
+## Development difficulties
 
-If the game doesn't start, make sure all the dependencies installed without errors:
-```
-python -m pip install -r requirements.txt
-```
-On macOS and Linux you may need to use `python3` instead of `python`.
+At first, I had some problems understanding how Pygame works and how to use it.
 
-## License
+## What I learned
 
-This project is licensed under the MIT License - see the LICENSE.md file for details
+I learned how to work with Pygame while making this game.
+
+## Future plans
+
+I want to add new plants to the game in the future.
